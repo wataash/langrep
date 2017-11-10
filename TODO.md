@@ -5,10 +5,15 @@ langrep [-h] [[--] lang pattern]
     --backend     ag ack grep
 -h, --help
 -n                number
+    --no-curses
+    --no-pager
 ```
 
-`langrep` -> ncurses (or simply pager)
-`langrep cpp 'push('` -> pager? 
+`langrep` -> ncurses, select usage to expand (or simply pager?)
+`langrep cpp 'push('` -> pager?
+
+run grep asynchronously. (just pipe it)
+
 
 ## Configuration
 `~/.config/langrep/entries`
